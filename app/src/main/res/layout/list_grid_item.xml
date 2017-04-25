@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    style="@style/commonListItemStyle"
+    android:layout_height="96dp"
+    android:layout_margin="4dp"
+    android:background="@drawable/bg_swipe_item_neutral">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/text1"
+            android:layout_gravity="top|left"
+            android:gravity="center"
+            tools:ignore="RtlHardcoded"/>
+
+    </FrameLayout>
+
+</FrameLayout>
